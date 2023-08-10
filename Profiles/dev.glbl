@@ -149,4 +149,9 @@
       <initValue>'1000000'</initValue>
       <name>G_Limit_Paylater</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.koperasibri.id'</initValue>
+      <name>AppID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

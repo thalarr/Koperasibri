@@ -21,7 +21,7 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
-Mobile.startExistingApplication('com.cardlez.id')
+Mobile.startExistingApplication('com.koperasibri.id')
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView'), 0)
 
@@ -66,3 +66,4 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
+

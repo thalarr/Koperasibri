@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
+Mobile.startExistingApplication('com.koperasibri.id')
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Cek pinjaman/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Cek pinjaman/android.widget.LinearLayout'), 0)
-
-Mobile.closeApplication()
 
