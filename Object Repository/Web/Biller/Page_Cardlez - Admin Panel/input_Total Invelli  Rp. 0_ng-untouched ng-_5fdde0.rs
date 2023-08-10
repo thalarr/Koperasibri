@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Total Invelli  Rp. 0_ng-untouched ng-_5fdde0</name>
+   <tag></tag>
+   <elementGuidId>6d5dd1a8-0b31-494b-a341-03c5fccb7981</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8480d69a-e64d-4214-8f1d-2471cd77356e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>80294bd1-fea3-486c-8085-102effd8e158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>71e4c723-8480-4ca6-b64f-894eb5aa02b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default    pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[@class=&quot;main-content&quot;]/ngx-biller[@class=&quot;ng-star-inserted&quot;]/ngx-settlement[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/nb-card[1]/nb-card-body[1]/nb-tabset[1]/nb-tab[@class=&quot;content-active&quot;]/nb-card[@class=&quot;ng-star-inserted&quot;]/nb-card-body[1]/ng2-smart-table[1]/table[1]/thead[@class=&quot;ng-star-inserted&quot;]/tr[@class=&quot;ng2-smart-titles ng-star-inserted&quot;]/th[@class=&quot;ng-star-inserted&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>fa971cc3-90ec-4d59-baa8-f240b304dc28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+      <webElementGuid>0a2f1bd0-f66a-499a-9b29-2058b62e0e4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th/input</value>
+      <webElementGuid>6163655e-7afc-439e-ab61-18115e1982fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>b480b090-520d-4f53-a38e-6c56f2bb0f23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Member</name>
+   <tag></tag>
+   <elementGuidId>686e5624-e30a-47d7-acfc-e680e927e0fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Pinjaman'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-tns-c8-8.ng-star-inserted > span.menu-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>52759087-74db-464b-93f1-35c4760ddb4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-title</value>
+      <webElementGuid>f4d1fe0f-d2b8-4ee0-a936-4e9d2709837d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Member</value>
+      <webElementGuid>fa383575-fe95-4bc3-9d25-967f49059bd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default pace-done pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/nb-sidebar[@class=&quot;menu-sidebar start&quot;]/div[@class=&quot;main-container main-container-fixed&quot;]/div[@class=&quot;scrollable&quot;]/nb-menu[1]/ul[@class=&quot;menu-items&quot;]/li[@class=&quot;menu-item ng-tns-c8-8 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c8-8 ng-star-inserted&quot;]/span[@class=&quot;menu-title&quot;]</value>
+      <webElementGuid>1b03b44f-6d67-4364-afe8-9a363dbf6cb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Pinjaman'])[1]/following::span[1]</value>
+      <webElementGuid>1a2e8bbe-edd1-4f5f-9715-c48a3c0e158c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mailbox'])[1]/following::span[2]</value>
+      <webElementGuid>59d90ef8-3563-4cc3-a43a-5b3896bf06d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Member'])[1]/preceding::span[1]</value>
+      <webElementGuid>05f03572-1c52-4747-95da-7010f319fed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktivasi Member'])[1]/preceding::span[2]</value>
+      <webElementGuid>5f3334f6-00c5-423d-8fe4-8783d5a7b674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Member']/parent::*</value>
+      <webElementGuid>8bfc13cd-bbd2-4064-91de-08a3048d12f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/span</value>
+      <webElementGuid>d90a76fd-e16e-473e-96b8-a898608d954f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Member' or . = 'Member')]</value>
+      <webElementGuid>2db87dbb-16da-4fed-858d-b42ebc2b50fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

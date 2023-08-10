@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Anggota</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Registrasi dua'</initValue>
+      <name>Nama_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'320123920197'</initValue>
+      <name>KTP_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0800000006'</initValue>
+      <name>Telp_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'registrasi6@gmail.com'</initValue>
+      <name>Email_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Marsilah'</initValue>
+      <name>Ibu_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta'</initValue>
+      <name>Tempat_Lahir_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CTL12307005'</initValue>
+      <name>No_Cif</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

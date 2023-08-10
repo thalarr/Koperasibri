@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>PPOB &amp; Paylater</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>Pin_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>Pin_2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3'</initValue>
+      <name>Pin_3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>Pin_4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>Pin_5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3'</initValue>
+      <name>Pin_6</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'541300871237'</initValue>
+      <name>PLN_Prabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'081339372389'</initValue>
+      <name>No_Hp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3812308006'</initValue>
+      <name>Rek_Simpanan_Khusus</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>password kurang 6 karakter</description>
+   <name>TS3005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc97427e-772b-417f-af15-4cf035eb8641</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pilih</name>
+   <tag></tag>
+   <elementGuidId>21b20703-afa4-4320-9b6a-1d4dd4bbad40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.default.btn-xs.purple</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:;' and (text() = 'Pilih' or . = 'Pilih')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;selectItemAccountPerCustomer('0f5818dd-6f37-442f-9429-25e560125fa5','3312306009 - Registrasi - Simpanan Mobile - Anggota Koperasi - 3314132414511 - 0800000001'); return false&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4fc396d6-2509-468b-83fa-0f65bd360242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>05b1c3c1-81c6-40b1-957c-cc7c78712f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>selectItemAccountPerCustomer('0f5818dd-6f37-442f-9429-25e560125fa5','3312306009 - Registrasi - Simpanan Mobile - Anggota Koperasi - 3314132414511 - 0800000001'); return false</value>
+      <webElementGuid>417f6072-6bea-42dd-834b-3fb4e07d979a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn default btn-xs purple</value>
+      <webElementGuid>f1379406-856b-4d11-9e96-3433c735d249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih</value>
+      <webElementGuid>8b07bef6-a7f2-401e-baa3-ee6ec7a2c9de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BrowseAccountPerCustomer&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]/a[@class=&quot;btn default btn-xs purple&quot;]</value>
+      <webElementGuid>4cf6d818-c24e-4b7d-be37-fa5346f1a2dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;selectItemAccountPerCustomer('0f5818dd-6f37-442f-9429-25e560125fa5','3312306009 - Registrasi - Simpanan Mobile - Anggota Koperasi - 3314132414511 - 0800000001'); return false&quot;]</value>
+      <webElementGuid>b2bcb6e3-2b08-4f54-ad57-44b3d515b461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='BrowseAccountPerCustomer']/tbody/tr/td[7]/a</value>
+      <webElementGuid>39a53de5-b590-4704-853b-e6d7943a14ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pilih')]</value>
+      <webElementGuid>e4c13d9e-3db8-415d-8ad9-0b8350b87584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpanan Mobile - Anggota Koperasi'])[1]/following::a[1]</value>
+      <webElementGuid>a975f777-2e66-4b1c-86d5-f9d95c573e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrasi'])[1]/following::a[1]</value>
+      <webElementGuid>46d18788-bd11-4bad-a8a8-86abad5b6028</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries'])[1]/preceding::a[1]</value>
+      <webElementGuid>4451254f-3726-455f-bedd-321f8dc33964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pilih']/parent::*</value>
+      <webElementGuid>78292a4b-d66f-4845-bdbf-82f42a44f5c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[55]</value>
+      <webElementGuid>efbd0804-0f18-4399-8b88-c6e38e5e76e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/a</value>
+      <webElementGuid>175f1119-7f29-48f4-bacc-ca42e6ca9c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = 'Pilih' or . = 'Pilih')]</value>
+      <webElementGuid>a1082796-82c1-4acc-bf75-8668ac811e48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

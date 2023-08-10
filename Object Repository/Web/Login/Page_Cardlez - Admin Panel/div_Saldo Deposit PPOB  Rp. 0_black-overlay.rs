@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Saldo Deposit PPOB  Rp. 0_black-overlay</name>
+   <tag></tag>
+   <elementGuidId>0300e383-bc60-4c1f-9f38-b822c20c06a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.black-overlay</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a41265d7-d220-4990-a21b-625ea6db1ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>black-overlay</value>
+      <webElementGuid>65cb7db9-5d49-4576-9ab7-ecba47879f50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default  pace-done&quot;]/ngx-app[1]/ngx-spinner[1]/div[@class=&quot;black-overlay&quot;]</value>
+      <webElementGuid>8636f3c5-5865-4d2d-8791-f74e58bc5f41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saldo Deposit PPOB : Rp. 0'])[1]/following::div[5]</value>
+      <webElementGuid>f3216490-c3c9-4eae-8cb5-e2ad74211e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome To CARDLEZ CORE Admin Panel'])[1]/following::div[5]</value>
+      <webElementGuid>15863c5f-54db-4281-9e4a-d73ccc2d0674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-spinner/div</value>
+      <webElementGuid>91205155-406c-4086-90de-062b8f359fd7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

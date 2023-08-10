@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Enter Company</name>
+   <tag></tag>
+   <elementGuidId>b017a649-7832-4ba7-8ac0-eba1bbb2a4af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-success.btn-full-width</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Code:'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3acf25c4-5d3f-4109-a2ea-f10304f70883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>status</name>
+      <type>Main</type>
+      <value>success</value>
+      <webElementGuid>1b7cc49c-24b1-4aac-882d-0c9e321700d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-success btn-full-width</value>
+      <webElementGuid>c37320c6-f14c-495b-adcb-bf6f8c52bfe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f8464b4e-cc78-4a7a-a394-5be0133a9b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>fdc6fb94-06a5-4857-aebb-6919c9dc6b78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Enter Company </value>
+      <webElementGuid>7a190e0f-cd81-4316-816a-1a2bb74d13bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default pace-done pace-done pace-done&quot;]/ngx-app[1]/nb-auth[1]/nb-layout[1]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[1]/nb-card[1]/nb-card-body[1]/nb-auth-block[1]/nb-login[1]/div[1]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/button[@class=&quot;btn-success btn-full-width&quot;]</value>
+      <webElementGuid>c2420a5f-5c0f-4326-b454-7e7fad9d4b60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Code:'])[1]/following::button[1]</value>
+      <webElementGuid>9ff4ea8c-bde9-4dfc-963e-4efc8657c882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome'])[1]/following::button[1]</value>
+      <webElementGuid>7319561c-cc89-41f1-bfd2-4efe291d142c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter Company']/parent::*</value>
+      <webElementGuid>049219bb-b2d7-4f8e-b0eb-2d62d44f17ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>444ff2ad-f059-41ae-bb66-0d0a795f1db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Enter Company ' or . = ' Enter Company ')]</value>
+      <webElementGuid>cd586f07-4291-4c21-ad5e-068ed3fc38fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

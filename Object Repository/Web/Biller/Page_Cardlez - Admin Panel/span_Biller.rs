@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Biller</name>
+   <tag></tag>
+   <elementGuidId>645fcef2-e78b-4f9f-85c3-9f2246e9b3ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Unblock Member'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-tns-c8-19.ng-star-inserted > span.menu-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eb5ba1b1-b74f-49cd-80dd-683c82ce879f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-title</value>
+      <webElementGuid>e405b5f2-5f1a-4f9a-964e-e73a344b9078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Biller</value>
+      <webElementGuid>a37cee7e-c935-4b20-9f5b-700dc883e410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default pace-done pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/nb-sidebar[@class=&quot;menu-sidebar start&quot;]/div[@class=&quot;main-container main-container-fixed&quot;]/div[@class=&quot;scrollable&quot;]/nb-menu[1]/ul[@class=&quot;menu-items&quot;]/li[@class=&quot;menu-item ng-tns-c8-19 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c8-19 ng-star-inserted&quot;]/span[@class=&quot;menu-title&quot;]</value>
+      <webElementGuid>838e6c04-16e2-47ba-8797-e55220fdcb0e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unblock Member'])[1]/following::span[1]</value>
+      <webElementGuid>785c03a4-23e6-42a8-ac84-83806b88ca54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan Perubahan'])[1]/following::span[2]</value>
+      <webElementGuid>7c98c594-197d-4699-9206-4c79251a1744</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settlement'])[1]/preceding::span[1]</value>
+      <webElementGuid>8efba658-08b6-4297-a818-7b403694d687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Transactions'])[1]/preceding::span[2]</value>
+      <webElementGuid>7b7b6d8b-097c-49bf-90da-f0660eadd623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Biller']/parent::*</value>
+      <webElementGuid>000fc600-4f64-4fa2-a462-56e9fcd868c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>9123d5d9-bb5c-405a-83b6-eae5a8173187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Biller' or . = 'Biller')]</value>
+      <webElementGuid>71b4e997-55b7-42a2-80bf-026b8423a4af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

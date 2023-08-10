@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Actions_nb-checkmark</name>
+   <tag></tag>
+   <elementGuidId>0bc030b3-01e6-42f6-8780-f8f00bc5b1c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.nb-checkmark</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng2-st-tbody-create-cancel/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c404e77b-2ed0-4ac1-a984-6d1dcd089783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nb-checkmark</value>
+      <webElementGuid>22eee188-9e73-4bbe-affe-e169ee10bd87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default    pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[@class=&quot;main-content&quot;]/ngx-master[@class=&quot;ng-star-inserted&quot;]/ngx-application-configuration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/nb-card[1]/nb-card-body[1]/ng2-smart-table[1]/table[1]/tbody[1]/tr[@class=&quot;ng-star-inserted ng2-smart-row&quot;]/td[@class=&quot;ng2-smart-actions ng-star-inserted&quot;]/ng2-st-tbody-create-cancel[1]/a[@class=&quot;ng2-smart-action ng2-smart-action-edit-save&quot;]/i[@class=&quot;nb-checkmark&quot;]</value>
+      <webElementGuid>5639c8f0-0c94-4dcb-9930-3c6c9b39eebd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng2-st-tbody-create-cancel/a/i</value>
+      <webElementGuid>99b1b623-2991-4c0b-82d8-578b1ac5f591</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

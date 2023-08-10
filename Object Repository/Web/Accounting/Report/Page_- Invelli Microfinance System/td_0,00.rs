@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_0,00</name>
+   <tag></tag>
+   <elementGuidId>6c7e099a-fbc4-4e0d-ae32-08ec4a7ab3fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblJurnalTransaksiSummary']/tbody/tr[191]/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>0567f710-dfd3-4825-ba0c-9695c30ba8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                0,00
+            </value>
+      <webElementGuid>4c37271e-e877-4511-b0a7-6e3bef210813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblJurnalTransaksiSummary&quot;)/tbody[1]/tr[191]/td[4]</value>
+      <webElementGuid>e31bff62-32d9-43c5-b808-84ec248f210d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblJurnalTransaksiSummary']/tbody/tr[191]/td[4]</value>
+      <webElementGuid>1c8aa608-fb40-455c-aa48-7f888039294a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEP3412301001'])[2]/following::td[2]</value>
+      <webElementGuid>ca1d2d00-b5c3-4ca2-9d97-cf6ef54a68ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JNL2307321'])[1]/following::td[3]</value>
+      <webElementGuid>9e4d5e79-fb8a-412b-ab2a-560708476ca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bunga Simpanan Berjangka Diaccrue'])[31]/preceding::td[1]</value>
+      <webElementGuid>78ca5e9c-b1ba-4cc2-b107-62f958684831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biaya Imbal Jasa Simpanan Berjangka 6 Bulan'])[6]/preceding::td[3]</value>
+      <webElementGuid>f390179d-8ebb-421e-9f1c-ee7b58812733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[191]/td[4]</value>
+      <webElementGuid>ee87dbfa-683e-4082-82ef-8b2f6c058243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                0,00
+            ' or . = '
+                0,00
+            ')]</value>
+      <webElementGuid>54476b74-cf11-43c5-a225-11f1e0e9c144</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

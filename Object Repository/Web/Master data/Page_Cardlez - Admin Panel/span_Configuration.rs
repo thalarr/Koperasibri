@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Configuration</name>
+   <tag></tag>
+   <elementGuidId>efd5be6b-b869-41a8-b466-409409bcae7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-tns-c8-7.ng-star-inserted > span.menu-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mailbox'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1a89a6a0-e249-4841-b8ec-9346e4fdfbbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-title</value>
+      <webElementGuid>f69d5357-d0ef-41b1-81ba-fc0b78c54bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Configuration</value>
+      <webElementGuid>187158a3-64cd-478f-9db4-82ed80b288ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default pace-done pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/nb-sidebar[@class=&quot;menu-sidebar start expanded&quot;]/div[@class=&quot;main-container main-container-fixed&quot;]/div[@class=&quot;scrollable&quot;]/nb-menu[1]/ul[@class=&quot;menu-items&quot;]/li[@class=&quot;menu-item ng-tns-c8-1 ng-star-inserted&quot;]/ul[@class=&quot;menu-items ng-tns-c8-1 ng-trigger ng-trigger-toggle ng-star-inserted expanded&quot;]/li[@class=&quot;menu-item ng-tns-c8-7 ng-tns-c8-1 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c8-7 ng-star-inserted&quot;]/span[@class=&quot;menu-title&quot;]</value>
+      <webElementGuid>0cf74d09-b0bd-4978-aca0-6e86c4a1f8c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mailbox'])[1]/following::span[1]</value>
+      <webElementGuid>3a28299b-40c6-470c-876f-6cb84d5685b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Transfer'])[1]/following::span[2]</value>
+      <webElementGuid>b0204198-808c-44c2-9130-b3a8691fb781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Pinjaman'])[1]/preceding::span[1]</value>
+      <webElementGuid>65f459ff-fd96-4d84-9113-e99f7ea077c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Member'])[1]/preceding::span[2]</value>
+      <webElementGuid>881afeb3-4226-4633-89b8-6994b52c0aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Configuration']/parent::*</value>
+      <webElementGuid>419470dd-b12d-4956-87fa-257c7f923312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li[6]/a/span</value>
+      <webElementGuid>8efd3d11-817b-4a86-a3e8-febbef863b0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Configuration' or . = 'Configuration')]</value>
+      <webElementGuid>f51dc877-68b6-4cbc-b7dc-3051ace3dfd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

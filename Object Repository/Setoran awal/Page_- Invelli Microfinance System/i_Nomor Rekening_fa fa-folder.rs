@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Nomor Rekening_fa fa-folder</name>
+   <tag></tag>
+   <elementGuidId>ec9d53bf-e551-4c01-b3d6-7944d3adfe98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group > div.col-md-4 > div.input-group > span.input-group-addon > i.fa.fa-folder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='pageform']/div/div/div[3]/div/div/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>de39e086-20af-4a21-be64-6fa887df0d00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-folder</value>
+      <webElementGuid>e1d86ad4-1d02-47f1-9616-8b7870ba7d07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageform&quot;)/div[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-addon&quot;]/i[@class=&quot;fa fa-folder&quot;]</value>
+      <webElementGuid>63d2d5f7-2e88-4635-bfa5-e3578fe859b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='pageform']/div/div/div[3]/div/div/span/i</value>
+      <webElementGuid>84d306bb-e5ca-4fce-ae6b-6c487a218a18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/span/i</value>
+      <webElementGuid>27aae9b0-1bc7-44eb-be5f-bb38da252c2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Actions_nb-edit</name>
+   <tag></tag>
+   <elementGuidId>bb6d056d-ed8a-41ec-ac40-a12cbeb94cb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng2-st-tbody-edit-delete/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.nb-edit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>18942a67-c525-4762-8c72-5e76648f0a52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nb-edit</value>
+      <webElementGuid>62675936-aaa4-4671-8ae2-87468f302586</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default    pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[@class=&quot;main-content&quot;]/ngx-member[@class=&quot;ng-star-inserted&quot;]/ngx-approval-existing-member[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12&quot;]/nb-card[1]/nb-card-body[1]/ng2-smart-table[1]/table[1]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;ng2-smart-actions ng-star-inserted&quot;]/ng2-st-tbody-edit-delete[1]/a[@class=&quot;ng2-smart-action ng2-smart-action-edit-edit ng-star-inserted&quot;]/i[@class=&quot;nb-edit&quot;]</value>
+      <webElementGuid>57e759ec-6470-4446-9a4d-1273497c80db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng2-st-tbody-edit-delete/a/i</value>
+      <webElementGuid>eb55e014-efc5-4f94-b0dd-62892bb0badf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

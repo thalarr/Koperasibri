@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>change config transfer manual</description>
+   <name>configuration istransferauthor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea6cdb05-c47c-479e-83a3-16519372e531</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Report_1</name>
+   <tag></tag>
+   <elementGuidId>f72b927e-131b-4947-b0dc-f21961ff5cd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.sub-menu > li.open > ul.sub-menu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Report')])[14]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d2bbe3a9-6413-418a-bea7-8aa97ff279be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/accountingreport/</value>
+      <webElementGuid>1967a974-3384-4bb5-8b2e-5f220081c917</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report</value>
+      <webElementGuid>51b99b13-dfac-459b-a290-6dd18d4eb9af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-header-fixed page-quick-sidebar-over-content page-sidebar-closed-hide-logo&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-sidebar-wrapper&quot;]/div[@class=&quot;page-sidebar navbar-collapse collapse&quot;]/ul[@class=&quot;page-sidebar-menu&quot;]/li[@class=&quot;open&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;open&quot;]/ul[@class=&quot;sub-menu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>6dcf3ce0-0c70-47a4-b600-7186eebbf223</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Report')])[14]</value>
+      <webElementGuid>cc4d5b12-a648-4862-903d-fc00e5f567e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Distribusi SHU'])[1]/following::a[2]</value>
+      <webElementGuid>feb9784c-17b9-40cc-a02e-c9ad4f325f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Akhir Hari EOD'])[1]/preceding::a[1]</value>
+      <webElementGuid>a2893b79-332b-4399-9d14-ce6ec0feeda1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Core Settings'])[1]/preceding::a[2]</value>
+      <webElementGuid>fdc9a741-928f-44b6-8671-3eb2b8f88fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/accountingreport/')]</value>
+      <webElementGuid>4ceacbd7-cd0d-439a-85bb-0ea4490d9280</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/ul/li[3]/ul/li/a</value>
+      <webElementGuid>24a5e345-8eee-40f9-86ac-d351fcdb98e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/accountingreport/' and (text() = 'Report' or . = 'Report')]</value>
+      <webElementGuid>6cca74e7-cc76-4518-b7e0-9c318e8bc56e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

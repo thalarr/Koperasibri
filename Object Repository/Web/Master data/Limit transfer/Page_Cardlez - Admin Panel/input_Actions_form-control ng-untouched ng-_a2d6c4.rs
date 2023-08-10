@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Actions_form-control ng-untouched ng-_a2d6c4</name>
+   <tag></tag>
+   <elementGuidId>9ffadf73-cb9e-4bb8-b8a6-baaef703823b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7076440e-659d-43fc-ac31-636f3366b783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>e78e60a5-f129-4e2e-a06f-c67430ef2150</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>dc121cce-4c6e-4a26-bad5-b26315003099</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Nama Produk</value>
+      <webElementGuid>77318175-672d-418b-b40c-f75e1e138510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default    pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[@class=&quot;main-content&quot;]/ngx-master[@class=&quot;ng-star-inserted&quot;]/ngx-limit-transfer[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12&quot;]/nb-card[1]/nb-card-body[1]/ng2-smart-table[1]/table[1]/thead[@class=&quot;ng-star-inserted&quot;]/tr[@class=&quot;ng2-smart-filters ng-star-inserted&quot;]/th[@class=&quot;ng2-smart-th accGroupConditionNo ng-star-inserted&quot;]/ng2-smart-table-filter[1]/div[@class=&quot;ng2-smart-filter ng-star-inserted&quot;]/default-table-filter[@class=&quot;ng-star-inserted&quot;]/input-filter[@class=&quot;ng-star-inserted&quot;]/input[@class=&quot;form-control ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>60e4a842-0f3c-425b-b12f-46566a1c44d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>f579d97e-35a7-4c30-82f2-61204ffc7624</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input-filter/input</value>
+      <webElementGuid>276fa82c-b3d3-4a4b-8c03-3d6e8d5ec604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Nama Produk']</value>
+      <webElementGuid>2f8522a8-3811-4f7a-bd55-a06259b44d52</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

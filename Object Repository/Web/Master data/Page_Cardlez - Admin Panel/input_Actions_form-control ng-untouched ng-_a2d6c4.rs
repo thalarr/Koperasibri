@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Actions_form-control ng-untouched ng-_a2d6c4</name>
+   <tag></tag>
+   <elementGuidId>846450f5-69a2-4d26-8211-56f2f3653ef0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1a20379f-4db2-4955-961d-6865eb8478cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>049223ee-6ef6-4f45-94e0-8a0e7e182a41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>63974f73-1e14-467e-af7a-7003d1eee3d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Key</value>
+      <webElementGuid>3d878f8d-ea54-4c99-a676-fc1e6444df9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nb-theme-default    pace-done&quot;]/ngx-app[1]/ngx-pages[1]/ngx-sample-layout[1]/nb-layout[@class=&quot;window-mode with-scroll&quot;]/div[@class=&quot;scrollable-container&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;layout-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;columns&quot;]/nb-layout-column[@class=&quot;main-content&quot;]/ngx-master[@class=&quot;ng-star-inserted&quot;]/ngx-application-configuration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/nb-card[1]/nb-card-body[1]/ng2-smart-table[1]/table[1]/thead[@class=&quot;ng-star-inserted&quot;]/tr[@class=&quot;ng2-smart-filters ng-star-inserted&quot;]/th[@class=&quot;ng2-smart-th configKey ng-star-inserted&quot;]/ng2-smart-table-filter[1]/div[@class=&quot;ng2-smart-filter ng-star-inserted&quot;]/default-table-filter[@class=&quot;ng-star-inserted&quot;]/input-filter[@class=&quot;ng-star-inserted&quot;]/input[@class=&quot;form-control ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>25d012c6-ba5c-4333-93bf-6c5c1279b940</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>18cbbd89-88a7-4711-b94f-2943307d11cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input-filter/input</value>
+      <webElementGuid>86582dd3-2468-4a53-9a22-65afef23053a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Key']</value>
+      <webElementGuid>1dec486d-2014-4229-8dac-432540a47cbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

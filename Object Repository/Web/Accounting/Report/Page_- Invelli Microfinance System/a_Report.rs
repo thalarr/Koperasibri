@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Report</name>
+   <tag></tag>
+   <elementGuidId>ddf13774-970e-4309-b2f5-3c2a7acb9fa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Distribusi SHU'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>793df4b5-f548-46f1-9277-ff52ad67110b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>7bfaf40d-95d5-4155-8f8c-907c2eaa388a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                             Report 
+                        </value>
+      <webElementGuid>f7d9e929-71a4-42e2-a3ae-2fee7cd55849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-header-fixed page-quick-sidebar-over-content page-sidebar-closed-hide-logo&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-sidebar-wrapper&quot;]/div[@class=&quot;page-sidebar navbar-collapse collapse&quot;]/ul[@class=&quot;page-sidebar-menu&quot;]/li[@class=&quot;open&quot;]/ul[@class=&quot;sub-menu&quot;]/li[3]/a[1]</value>
+      <webElementGuid>582e0789-f24c-466c-bf58-eb24e6e20f22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Distribusi SHU'])[1]/following::a[1]</value>
+      <webElementGuid>f7a5271b-e534-474d-aca6-191ebb97d922</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Otorisasi Distribusi SHU'])[1]/following::a[2]</value>
+      <webElementGuid>784ba46e-cf1e-4963-9036-33baa6409854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>aea2855a-c78d-40c0-927a-aacfd655b94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Akhir Hari EOD'])[1]/preceding::a[2]</value>
+      <webElementGuid>9d1ad8d3-0753-4313-b2dc-d2ea3fa953d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[46]</value>
+      <webElementGuid>7cf9d038-d0ef-40a3-9ef2-dc2f71d41193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/ul/li[3]/a</value>
+      <webElementGuid>545016e3-63e8-4b16-b8c4-33ee1a4d5839</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = '
+                             Report 
+                        ' or . = '
+                             Report 
+                        ')]</value>
+      <webElementGuid>964f2536-1026-4f82-b8d1-0f5ffdd466c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_3312307002</name>
+   <tag></tag>
+   <elementGuidId>23ace64e-ad68-440c-afda-92089d5e9f61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.table-cell</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a8095cb4dab7-0']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fca4f9f3-850e-4186-bb39-9188e518b3f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-cell</value>
+      <webElementGuid>93f66a7e-e18d-4df4-b4dc-06fd39a7ea65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 3312307002 </value>
+      <webElementGuid>936ec826-6330-4daa-b5e7-d933165ea0b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a8095cb4dab7-0&quot;)/div[@class=&quot;table-row ng-star-inserted&quot;]/div[@class=&quot;table-cell&quot;]</value>
+      <webElementGuid>4631908e-1c14-4c8f-8500-550bb201da96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a8095cb4dab7-0']/div/div</value>
+      <webElementGuid>942093b1-ca89-42e1-b2e3-2af5c44441cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary Account'])[1]/following::div[10]</value>
+      <webElementGuid>f2c071d0-1c97-4c3a-a572-53e4dd32ecb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grade'])[1]/following::div[12]</value>
+      <webElementGuid>94fa1462-d240-47ef-99a1-08f4c5c0911d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpanan Mobile - Anggota Koperasi'])[1]/preceding::div[1]</value>
+      <webElementGuid>c29c4cd4-b51c-4afa-b2e6-ce3faa373aec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpanan Bertahap Anggota'])[1]/preceding::div[3]</value>
+      <webElementGuid>9cd18c38-a9f3-4b0f-9d6e-aad7aed7e321</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3312307002']/parent::*</value>
+      <webElementGuid>6a723711-be3a-4489-b42a-06128970fd48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>a8767bda-f4e9-4f85-85a2-c3bf589b38f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 3312307002 ' or . = ' 3312307002 ')]</value>
+      <webElementGuid>c5b45b6d-53a9-4647-b7b0-97a77d390f81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Simpan</name>
+   <tag></tag>
+   <elementGuidId>5ad4004a-688c-4db7-9c71-a3336b50ad61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.green.button-submit</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:;' and (text() = '
+                                        Simpan 
+                                    ' or . = '
+                                        Simpan 
+                                    ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='submit_form']/div/div[2]/div/div/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1170f2a2-7a02-4c3b-8523-80a63f3db69b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>062d6346-a405-4dc3-9967-b66ed9718b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn green button-submit</value>
+      <webElementGuid>508dd0d6-d2bd-48b8-946b-00e4fe456add</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        Simpan 
+                                    </value>
+      <webElementGuid>74fa7289-17cb-480f-ba4e-c3d1e86736ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;submit_form&quot;)/div[@class=&quot;form-wizard&quot;]/div[@class=&quot;form-actions&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-offset-3 col-md-9&quot;]/a[@class=&quot;btn green button-submit&quot;]</value>
+      <webElementGuid>3aab7c57-362f-4cbf-bd27-84061e3d0c12</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='submit_form']/div/div[2]/div/div/a[3]</value>
+      <webElementGuid>845c93f3-a033-4e00-aa00-521ceaaa0d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Simpan')])[44]</value>
+      <webElementGuid>c3e0dca9-059f-45cd-9b10-00fdbe85d963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjut ke Berikutnya'])[1]/following::a[1]</value>
+      <webElementGuid>264e40cf-d5ad-4770-b698-dcb99da58a42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse Customer'])[1]/preceding::a[1]</value>
+      <webElementGuid>081633ae-b940-442b-a246-3b870f0a11b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Customer'])[1]/preceding::a[1]</value>
+      <webElementGuid>345c6f26-9b39-49e0-8117-47639376bb03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
+      <webElementGuid>a80e15f4-116a-457c-9447-3f9ab2fe89f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[60]</value>
+      <webElementGuid>4eeedcee-8cbb-4954-be9b-38d0edd5cd36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a[3]</value>
+      <webElementGuid>697776a6-2d3c-47ad-9694-e7b5ce9c2bbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = '
+                                        Simpan 
+                                    ' or . = '
+                                        Simpan 
+                                    ')]</value>
+      <webElementGuid>74c15770-350c-415d-98ce-a0ee9094f71b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

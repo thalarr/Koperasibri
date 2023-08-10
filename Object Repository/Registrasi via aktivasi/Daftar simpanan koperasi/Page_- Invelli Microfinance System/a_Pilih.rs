@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pilih</name>
+   <tag></tag>
+   <elementGuidId>713e2b8a-1577-4f3c-8c0a-7e1cca52bbea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.default.btn-xs.purple</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;selectItemCustomer('886ea76c-8f8a-4db0-a9bc-f69a82cfe770','CTL12307003 - Registrasi delapan'); return false&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>55452405-14ab-4a2d-b98c-1979a3b0a480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>selectItemCustomer('886ea76c-8f8a-4db0-a9bc-f69a82cfe770','CTL12307003 - Registrasi delapan'); return false</value>
+      <webElementGuid>cf2f12a4-d31b-4bfd-9f81-616530447947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn default btn-xs purple</value>
+      <webElementGuid>fcd5d77a-ffbb-4aed-9534-994d562af4c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih</value>
+      <webElementGuid>5ad2b716-c6e3-4e2a-9fe1-b0c0fcef1be5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BrowseCustomerx&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[6]/a[@class=&quot;btn default btn-xs purple&quot;]</value>
+      <webElementGuid>d2b6ee1b-9fc3-4198-b27d-e72298bce284</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;selectItemCustomer('886ea76c-8f8a-4db0-a9bc-f69a82cfe770','CTL12307003 - Registrasi delapan'); return false&quot;]</value>
+      <webElementGuid>47afa69f-1dcf-45ad-8a13-dcfa20820d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='BrowseCustomerx']/tbody/tr/td[6]/a</value>
+      <webElementGuid>2cbdbad1-24ec-4cc9-99ff-6c74d707ba59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pilih')]</value>
+      <webElementGuid>880e4402-6ae1-43e0-a602-645fedbe343c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrasi delapan'])[1]/following::a[1]</value>
+      <webElementGuid>d8eec13c-d594-4807-aa15-c1c2b9632730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CTL12307003'])[1]/following::a[1]</value>
+      <webElementGuid>072cc264-d2ec-4b55-b863-c1f37f4b63c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CTL12307004'])[1]/preceding::a[1]</value>
+      <webElementGuid>d0171373-36f7-4185-b85b-3c6c59006a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrasi delapan'])[2]/preceding::a[1]</value>
+      <webElementGuid>23289a43-09f4-45a6-a252-6c21611cbd0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[248]</value>
+      <webElementGuid>532a663e-1972-4f4e-aa43-f8a08d3c1409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a</value>
+      <webElementGuid>ef613e97-6655-4b03-9d6a-6e2f58cd4ab9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Pilih' or . = 'Pilih')]</value>
+      <webElementGuid>28c204bd-7a63-4f55-bfd0-83ad11555374</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

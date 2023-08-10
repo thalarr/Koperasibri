@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Accounting</name>
+   <tag></tag>
+   <elementGuidId>038488fb-abee-4de1-a6be-d541514e46b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Harian Transaksi Pinjaman'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>89069cf5-71d6-4e72-8c5b-9f3b099d2a4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>049dffd2-1155-4177-a4da-27a6a2a5789c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accounting</value>
+      <webElementGuid>673486a0-14e1-4eb6-bfde-3c0a76e3b333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-header-fixed page-quick-sidebar-over-content page-sidebar-closed-hide-logo&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-sidebar-wrapper&quot;]/div[@class=&quot;page-sidebar navbar-collapse collapse&quot;]/ul[@class=&quot;page-sidebar-menu&quot;]/li[11]/a[1]/span[@class=&quot;title&quot;]</value>
+      <webElementGuid>d765c4ac-d00a-433b-98b9-94a376a04af6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Harian Transaksi Pinjaman'])[1]/following::span[1]</value>
+      <webElementGuid>8293712b-fbde-43f9-8e85-f6d0babeb470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nominatif Pinjaman Inquiry'])[1]/following::span[1]</value>
+      <webElementGuid>d30b613f-15b5-47e3-95a7-4b16a901cc8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chart Of Account'])[1]/preceding::span[3]</value>
+      <webElementGuid>afcf83f2-4a70-4f25-be8f-9d99422dcd0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Accounting']/parent::*</value>
+      <webElementGuid>3e2836fc-378c-45d4-8692-1b07921ee07a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/a/span</value>
+      <webElementGuid>f3134b80-5bd1-45e5-925e-483af28ff8d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Accounting' or . = 'Accounting')]</value>
+      <webElementGuid>5ac63180-81ec-4eba-80ab-bb3bdf15f0a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

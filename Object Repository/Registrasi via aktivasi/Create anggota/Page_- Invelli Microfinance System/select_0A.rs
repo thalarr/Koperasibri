@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_0A</name>
+   <tag></tag>
+   <elementGuidId>833e79f6-31b8-4b90-870d-9718aa2f3ee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Group</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='Group']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>56750c56-5366-4b9e-84c6-197539f72d3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control input-circle</value>
+      <webElementGuid>ad5f119c-72cf-42a7-883a-e2c72745f486</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Group</value>
+      <webElementGuid>0a76c1e5-5e65-45e7-af7a-22ad2cbab49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Group</value>
+      <webElementGuid>4ab67d2c-786c-48b3-be5b-e27e11ed2eec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>ajax_load_gradegroup()</value>
+      <webElementGuid>1897733c-ace6-46d9-9f97-a0041aa95020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0
+A
+</value>
+      <webElementGuid>e09c726b-a911-425c-b599-4569cd7f1947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Group&quot;)</value>
+      <webElementGuid>d8474ef9-263d-41a1-8fb5-805d91f9694d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='Group']</value>
+      <webElementGuid>c29ff5bb-730b-4b8a-baf3-953fa0751512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab1']/div[5]/div/select</value>
+      <webElementGuid>a9932a3a-b4a5-4748-bfa1-abf91a158e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grade'])[1]/following::select[1]</value>
+      <webElementGuid>75ff3e63-7f8e-4928-af8b-58d6f77d565c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Jenis Identitas'])[1]/following::select[2]</value>
+      <webElementGuid>66f6b01b-c3f4-462f-b0e8-a353c816ecd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*No Identitas'])[1]/preceding::select[1]</value>
+      <webElementGuid>baefa82b-c8a7-4263-9f6b-d034c4de0c8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Grade'])[1]/preceding::select[1]</value>
+      <webElementGuid>67d2096e-8bbc-4772-bfcf-9bae5f4476a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/select</value>
+      <webElementGuid>327c9c3f-9976-44ce-8ea5-b974a5c91e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'Group' and @name = 'Group' and (text() = '0
+A
+' or . = '0
+A
+')]</value>
+      <webElementGuid>728f3612-2602-4bb8-9a3c-05976a5974f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
