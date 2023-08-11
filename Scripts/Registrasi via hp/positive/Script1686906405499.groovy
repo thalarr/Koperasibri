@@ -37,36 +37,36 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-Mobile.tap(findTestObject('Registrasi via hp/android.widget.TextView - Daftar Baru (1)'), 0)
+Mobile.tap(findTestObject('Registrasi via hp/android.widget.TextView - Daftar Baru (1)',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NamaLengkap'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NamaLengkap',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NamaLengkap'), GlobalVariable.G_Name, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.TempatLahir'), 0)
-
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.TempatLahir'), GlobalVariable.G_Tempat_Lahir, 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NamaLengkap',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Name, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.TanggalLahir'), GlobalVariable.G_Tanggal_Lahir, 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.TempatLahir',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NomorHandphone'), 0)
-
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NomorHandphone'), GlobalVariable.G_No_Hp, 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.TempatLahir',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Tempat_Lahir, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail'), 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.TanggalLahir',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Tanggal_Lahir, 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NomorHandphone',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail'), GlobalVariable.G_Email, 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NomorHandphone',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_No_Hp, 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail',[('packageName'): GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail',[('packageName'): GlobalVariable.AppID]), 0)
+
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatEmail',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Email, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
@@ -74,60 +74,60 @@ Mobile.hideKeyboard()
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NoIdentitas'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NoIdentitas',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NoIdentitas'), GlobalVariable.G_NIK, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NoNPWP'), 0)
-
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NoNPWP'), GlobalVariable.G_NPWP, 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NoIdentitas',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_NIK, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.JK'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NoNPWP',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.CheckedTextView - Pria'), 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NoNPWP',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_NPWP, 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKTP'), 0)
+'Hide keyboard'
+Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKTP'), GlobalVariable.G_Alamat, 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.JK',[('packageName'): GlobalVariable.AppID]), 0)
 
-if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Registrasi via hp (kita.id)/android.widget.CheckBox'), 4)) {
-    Mobile.checkElement(findTestObject('Object Repository/Registrasi via hp (kita.id)/android.widget.CheckBox'), 5)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.CheckedTextView - Pria',[('packageName'): GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKTP',[('packageName'): GlobalVariable.AppID]), 0)
+
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKTP',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Alamat, 0)
+
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Registrasi via hp (kita.id)/android.widget.CheckBox',[('packageName'): GlobalVariable.AppID]), 4)) {
+    Mobile.checkElement(findTestObject('Object Repository/Registrasi via hp (kita.id)/android.widget.CheckBox',[('packageName'): GlobalVariable.AppID]), 5)
 }
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja11'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja11',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja11'), GlobalVariable.G_Alamat_Kerja1, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja2'), 0)
-
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja2'), GlobalVariable.G_Alamat_Kerja2, 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja11',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Alamat_Kerja1, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK'), 0)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja2',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK'), GlobalVariable.G_Nomor_Induk, 0)
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.SpinnerRegion'), 0)
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.CheckedTextView - Kal 1'), 0)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.AlamatKerja2',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Alamat_Kerja2, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tapAndHold(findTestObject('Registrasi via hp (kita.id)/android.widget.TextView - DAFTARKAN'), 5, 20)
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK',[('packageName'): GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Button - YA'), 20)
+Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Nomor_Induk, 0)
+
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.SpinnerRegion',[('packageName'): GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.CheckedTextView - Kal 1',[('packageName'): GlobalVariable.AppID]), 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tapAndHold(findTestObject('Registrasi via hp (kita.id)/android.widget.TextView - DAFTARKAN',[('packageName'): GlobalVariable.AppID]), 5, 20)
+
+Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Button - YA',[('packageName'): GlobalVariable.AppID]), 20)
 
 Mobile.delay(30)
 
