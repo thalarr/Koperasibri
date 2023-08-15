@@ -17,38 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)'), GlobalVariable.G_Password, 
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Password, 
     0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (3)'), GlobalVariable.G_Password_Confirmation, 
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Password_Confirmation, 
     0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (5)'), GlobalVariable.G_Pin, 
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Pin, 
     0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (6)'), 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (6)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (7)'), GlobalVariable.G_Pin_Confirmation, 
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (7)', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Pin_Confirmation, 
     0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tapAndHold(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.TextView - SIMPAN DAN LANJUTKAN'), 
+Mobile.tapAndHold(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.TextView - SIMPAN DAN LANJUTKAN', [('packageName') : GlobalVariable.AppID]), 
     5, 20)
 

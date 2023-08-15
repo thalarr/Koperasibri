@@ -38,16 +38,16 @@ int endY = device_Height * 0.70
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('KYC1/Konfirm Data - Kode referral'), 0)
+Mobile.tap(findTestObject('KYC1/Konfirm Data - Kode referral', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)'), 'CTL12306001', 0)
+Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)', [('packageName') : GlobalVariable.AppID]), 'CTL12306001', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/KYC1/android.widget.CheckBox -'), 4)) {
-    Mobile.checkElement(findTestObject('Object Repository/KYC1/android.widget.CheckBox -'), 5)
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/KYC1/android.widget.CheckBox -', [('packageName') : GlobalVariable.AppID]), 4)) {
+    Mobile.checkElement(findTestObject('Object Repository/KYC1/android.widget.CheckBox -', [('packageName') : GlobalVariable.AppID]), 5)
 }
 
-Mobile.tap(findTestObject('Object Repository/KYC1/Konfirm Data - Simpan'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/Konfirm Data - Simpan', [('packageName') : GlobalVariable.AppID]), 0)
 

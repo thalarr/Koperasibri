@@ -17,37 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.CheckBox'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.CheckBox', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi (1)'), GlobalVariable.G_Provinsi, 
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi (1)', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Provinsi, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - DKI Jakarta'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - DKI Jakarta', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota'), GlobalVariable.G_Kota, 
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Kota, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Jakarta Selatan, Wil. Kota'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Jakarta Selatan, Wil. Kota', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan'), GlobalVariable.G_Kecamatan, 
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Kecamatan, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan'), GlobalVariable.G_Kelurahan, 
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Kelurahan, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet Barat'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet Barat', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - LANJUT'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 0)
 

@@ -35,72 +35,87 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), GlobalVariable.G_Name, 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Name, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.AutoCompleteTextView - Ketik Nama Bank'), 0)
-
-Mobile.setText(findTestObject('KYC1/android.widget.AutoCompleteTextView - Ketik Nama Bank'), GlobalVariable.G_Nama_Bank, 
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.TextView - Bank Central Asia (BCA)'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.AutoCompleteTextView - Ketik Nama Bank', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('KYC1/android.widget.AutoCompleteTextView - Ketik Nama Bank', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Nama_Bank, 0)
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.TextView - Bank Central Asia (BCA)', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (3)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (4)'), GlobalVariable.G_Nomor_Rekening, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (5)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)'), GlobalVariable.G_Nama_Rekening, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Spinner'), 0)
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.CheckedTextView - S-1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (7)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (8)'), GlobalVariable.G_Ibu_Kandung, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (9)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (10)'), GlobalVariable.G_Nama_Kontak_Darurat, 
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Nomor_Rekening, 0)
+
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (11)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (12)'), GlobalVariable.G_Nomor_Kontak_Darurat, 
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (13)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (14)'), 'Ayah Kandung', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Nama_Rekening, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('KYC1/android.widget.TextView - LANJUT'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Spinner', [('packageName') : GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.CheckedTextView - S-1', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (7)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (8)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Ibu_Kandung, 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (9)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (10)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Nama_Kontak_Darurat, 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (11)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (12)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Nomor_Kontak_Darurat, 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (13)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (14)', [('packageName') : GlobalVariable.AppID]), 
+    'Ayah Kandung', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('KYC1/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 0)
 

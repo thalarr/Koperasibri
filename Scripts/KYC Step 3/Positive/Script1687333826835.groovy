@@ -37,20 +37,20 @@ int endY = device_Height * 0.70
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.ImageView', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Button - YA'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Button - YA', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Button'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Button', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.ImageView (1)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('KYC1/android.widget.Button - YA'), 0)
+Mobile.tap(findTestObject('KYC1/android.widget.Button - YA', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('KYC1/android.widget.Button'), 0)
+Mobile.tap(findTestObject('KYC1/android.widget.Button', [('packageName') : GlobalVariable.AppID]), 0)
 
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.TextView - LANJUT (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.TextView - LANJUT (1)', [('packageName') : GlobalVariable.AppID]), 0)
 
