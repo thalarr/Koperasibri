@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Web/Login/Page_Cardlez - Admin P
 WebUI.click(findTestObject('Object Repository/Web/Login/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Enter Company'))
 
 WebUI.setText(findTestObject('Object Repository/Web/Login/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Email address_email'), 
-    'cdlz@root.com')
+    'bayupermadi495@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Web/Login/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Password_password'), 
     'm8Ni7cfULHeohYmkI+uPlA==')
