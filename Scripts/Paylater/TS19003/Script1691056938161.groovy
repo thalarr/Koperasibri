@@ -37,7 +37,7 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-Mobile.tap(findTestObject('Paylater/Aktivasi paylater/MenuPinjaman', [('packageName') : GlobalVariable.AppID]), 0)
+Mobile.tap(findTestObject('Paylater/Aktivasi paylater/Pinjaman', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.widget.TextView - Aktivasi Paylater', [('packageName') : GlobalVariable.AppID]), 
     0)

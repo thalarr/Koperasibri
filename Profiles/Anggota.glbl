@@ -6,22 +6,22 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi dua'</initValue>
+      <initValue>'Registrasi dua tiga'</initValue>
       <name>Nama_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'320123920197'</initValue>
+      <initValue>'3201239201923'</initValue>
       <name>KTP_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0800000006'</initValue>
+      <initValue>'00800000023'</initValue>
       <name>Telp_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi6@gmail.com'</initValue>
+      <initValue>'registrasi23@gmail.com'</initValue>
       <name>Email_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
