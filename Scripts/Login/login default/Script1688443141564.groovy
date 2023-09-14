@@ -17,14 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (2)',[('packageName'): GlobalVariable.AppID]), 0)
+WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (3)',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_No_Hp, 0)
-
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)',[('packageName'): GlobalVariable.AppID]), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)',[('packageName'): GlobalVariable.AppID]), GlobalVariable.G_Password_Default, 
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)',[('packageName'): GlobalVariable.AppID]), 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_No_Hp, 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Password_Default, 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)', [('packageName') : GlobalVariable.AppID]), 
+    0)
 

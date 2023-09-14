@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login/Login admin panel'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl('https://member.cardlez.com/#/pages/dashboard')
 
 WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/span_Member'))
@@ -32,6 +34,9 @@ WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez -
 
 WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Limit Pinjaman_selectedLimit'), 
     GlobalVariable.G_Limit_Pinjaman)
+
+WebUI.setText(findTestObject('Web/Aktivasi member/Page_Cardlez - Admin Panel/input_Limit Paylater_selectedLimitPaylater'), 
+    GlobalVariable.G_Limit_Paylater)
 
 WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Approve'))
 

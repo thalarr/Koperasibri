@@ -12,9 +12,16 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6b58e732-7a1d-4ab1-b9ad-460b3afb5cae</testSuiteGuid>
    <testCaseLink>
-      <guid>9bfca938-dd10-41c8-9767-dee78f4a6db7</guid>
+      <guid>71a6853c-e50b-4b55-8e84-f508b09925a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/Prepare</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9bfca938-dd10-41c8-9767-dee78f4a6db7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login/login default</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -26,9 +33,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e9fa5ddb-97ba-4d7d-8b48-9cf5bd16dd39</guid>
+      <guid>6f9cd8af-91eb-430c-9988-3873420082d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/KYC Step 1/positive - kbri</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9fa5ddb-97ba-4d7d-8b48-9cf5bd16dd39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KYC Step 1/positive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi dua tiga'</initValue>
+      <initValue>'Registrasi dua empat'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'00800000023'</initValue>
+      <initValue>'0800000024'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi23@gmail.com'</initValue>
+      <initValue>'registrasi24@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'234234234223'</initValue>
+      <initValue>'234234234224'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'zqok2189 '</initValue>
+      <initValue>'asxq3528'</initValue>
       <name>G_Password_Default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454123'</initValue>
+      <initValue>'123454124'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -141,7 +141,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10000000'</initValue>
+      <initValue>'1000000'</initValue>
       <name>G_Limit_Pinjaman</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -151,7 +151,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.ezkop.id'</initValue>
+      <initValue>'com.koperasibri.id'</initValue>
       <name>AppID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
