@@ -28,31 +28,26 @@ Mobile.tap(findTestObject('Transaksi PPOB/android.widget.PilihRekening', [('pack
 Mobile.tap(findTestObject('Transaksi PPOB/Pulsa/android.widget.TextView - Paylater', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), 
+Mobile.tap(findTestObject('Transaksi PPOB/Paket data/NomorTujuan', [('packageName') : GlobalVariable.AppID]), 0)
+
+Mobile.setText(findTestObject('Transaksi PPOB/Paket data/NomorTujuan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.No_Hp, 0)
+
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.Button - LANJUT', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.setText(findTestObject('Transaksi PPOB/Pulsa/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
-    GlobalVariable.No_Hp, 0)
+Mobile.tap(findTestObject('Transaksi PPOB/Paket data/JenisPaket', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Button - LANJUT (2)', [('packageName') : GlobalVariable.AppID]), 
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.CheckedTextView - Gigamax Fit', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Spinner', [('packageName') : GlobalVariable.AppID]), 
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.Button - LANJUT (1)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.CheckedTextView - 10.000', [('packageName') : GlobalVariable.AppID]), 
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 
     0)
-
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Button - LANJUT (1)', [('packageName') : GlobalVariable.AppID]), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 
-    0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 

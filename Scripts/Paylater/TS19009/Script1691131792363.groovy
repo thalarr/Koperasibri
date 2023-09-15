@@ -21,36 +21,41 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
-Mobile.startExistingApplication('com.cardlez.id')
-
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.ImageView'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.TextView - Antar Rekening Cardlez'), 
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.ImageView', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.TextView - Antar Rekening Cardlez', 
+        [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (1)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (2)'), '3812308006', 
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.Button - LANJUT'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (3)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (4)'), '112000', 
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (5)'), 0)
+Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
+    '3812308006', 0)
 
-Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (6)'), 'bayar tas', 
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.Button - LANJUT', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.Button - LANJUT (1)'), 
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.TextView - LANJUT'), 0)
+Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 
+    '112000', 0)
+
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.EditText (6)', [('packageName') : GlobalVariable.AppID]), 
+    'bayar tas', 0)
+
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.Button - LANJUT (1)', [
+            ('packageName') : GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Object Repository/Paylater/Transfer sukarela ke khusus/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 

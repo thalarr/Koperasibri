@@ -23,35 +23,35 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 
 Mobile.startExistingApplication('com.koperasibri.id')
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.TextView - Antar Rekening Cardlez'), 
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.TextView - Antar Rekening Cardlez', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView (1)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.ImageView (2)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.RelativeLayout', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.TextView - Paylater'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.TextView - Paylater', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.EditText - Nomor Handphone - Nama Tujuan'), 
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.EditText - Nomor Handphone - Nama Tujuan', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.AutoCompleteTextView - Ketik nomor tujuan'), 
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.AutoCompleteTextView - Ketik nomor tujuan', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.setText(findTestObject('Paylater/Kirim pembayaran/android.widget.AutoCompleteTextView - Ketik nomor tujuan'), '080000000013', 
+Mobile.setText(findTestObject('Paylater/Kirim pembayaran/android.widget.AutoCompleteTextView - Ketik nomor tujuan', [('packageName') : GlobalVariable.AppID]), '080000000013', 
     0)
 
-Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.ImageView (3)'), 0)
+Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.ImageView (3)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.TextView - 080000000013'), 0)
+Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.TextView - 080000000013', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.Button - BAYAR'), 0)
+Mobile.tap(findTestObject('Object Repository/Paylater/Kirim pembayaran/android.widget.Button - BAYAR', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.TextView - LANJUT'), 0)
+Mobile.tap(findTestObject('Paylater/Kirim pembayaran/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 

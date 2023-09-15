@@ -49,4 +49,9 @@
       <initValue>'3812308006'</initValue>
       <name>Rek_Simpanan_Khusus</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.koperasibri.id'</initValue>
+      <name>AppID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
