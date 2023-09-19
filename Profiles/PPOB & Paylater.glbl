@@ -54,4 +54,9 @@
       <initValue>'com.koperasibri.id'</initValue>
       <name>AppID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'LND12309000045'</initValue>
+      <name>IdTransaction</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

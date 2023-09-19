@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hasanah.invelli.com/general/adminlogin/')
+WebUI.navigateToUrl('https://mobilecore-uat.invelli.com/general/adminlogin/')
 
-WebUI.setText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_username'), 'root@ezkop.co.id')
+WebUI.setText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_username'), 'root@giriutama.co.id')
 
-'ezkop7891'
-WebUI.setEncryptedText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_password'), 'VVGKRFI2ycwJz4lQal3dWg==')
+'rootgiriutama1298'
+WebUI.setEncryptedText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_password'), 'RYT4y8P3uIzUYm5h3prvOF5xotlLsUA2')
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Page_/button_Login'))
 

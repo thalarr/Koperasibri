@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Simpanan k
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Simpanan koperasi otorisasi pembukaan/Page_- Invelli Microfinance System/a_Otorisasi Pembukaan Simpanan'))
 
-WebUI.navigateToUrl('https://hasanah.invelli.com/accountauth/')
+WebUI.navigateToUrl('https://mobilecore-uat.invelli.com/accountauth/')
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Simpanan koperasi otorisasi pembukaan/Page_- Invelli Microfinance System/a_Otorisasi'))
 

@@ -1,29 +1,29 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 61976
-[35m[Appium][39m   tmpDir: C:\Users\62851\AppData\Local\Temp\\Katalon\Appium\Temp1694767945607
-[35m[Appium][39m   chromedriverPort: 61977
+[35m[Appium][39m   port: 62488
+[35m[Appium][39m   tmpDir: C:\Users\62851\AppData\Local\Temp\\Katalon\Appium\Temp1695119319049
+[35m[Appium][39m   chromedriverPort: 62489
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 61977
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61976
+[35m[Appium][39m   chromedriverPort: 62489
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62488
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m18 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"1f143258","deviceName":"Xiaomi M2007J20CG (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"1f143258","systemPort":8294},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"1f143258","appium:deviceName":"Xiaomi M2007J20CG (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8294,"appium:udid":"1f143258"}]}}[39m
-[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.android.settings","deviceId":"1f143258","deviceName":"Xiaomi M2007J20CG (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"1f143258","systemPort":8294},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"1f143258","appium:deviceName":"Xiaomi M2007J20CG (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8294,"appium:udid":"1f143258"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1694767952769 (15:52:32 GMT+0700 (Indochina Time))
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"1f143258","deviceName":"Xiaomi M2007J20CG (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"1f143258","systemPort":8235},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"1f143258","appium:deviceName":"Xiaomi M2007J20CG (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8235,"appium:udid":"1f143258"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.android.settings","deviceId":"1f143258","deviceName":"Xiaomi M2007J20CG (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"1f143258","systemPort":8235},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"1f143258","appium:deviceName":"Xiaomi M2007J20CG (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8235,"appium:udid":"1f143258"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1695119320928 (17:28:40 GMT+0700 (Indochina Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
@@ -35,7 +35,7 @@
 [debug] [35m[BaseDriver][39m     "appium:deviceId": "1f143258",
 [debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
 [debug] [35m[BaseDriver][39m     "platformName": "android",
-[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 61977,
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 62489,
 [debug] [35m[BaseDriver][39m     "appium:appActivity": ".Settings",
 [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.android.settings",
 [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
@@ -43,7 +43,7 @@
 [debug] [35m[BaseDriver][39m     "appium:deviceName": "Xiaomi M2007J20CG (Android 12)",
 [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
 [debug] [35m[BaseDriver][39m     "appium:platformVersion": "12",
-[debug] [35m[BaseDriver][39m     "appium:systemPort": 8294,
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 8235,
 [debug] [35m[BaseDriver][39m     "appium:udid": "1f143258"
 [debug] [35m[BaseDriver][39m   },
 [debug] [35m[BaseDriver][39m   "firstMatch": [
@@ -53,7 +53,7 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 19203b23-2d33-49a8-a684-3f594588978f
+[35m[BaseDriver][39m Session created with session id: d2cafb68-7f6f-4e13-a5df-5714df29255a
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\62851\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/62851/AppData/Local/Android/Sdk/build-tools/33.0.0
@@ -92,9 +92,9 @@
 [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell appops set io.appium.settings android:mock_location allow'
 [debug] [35m[Logcat][39m Starting logs capture with command: C:\\Users\\62851\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 1f143258 logcat -v threadtime
-[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8294
-[debug] [35m[ADB][39m Forwarding system: 8294 to device: 6790
-[debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 forward tcp:8294 tcp:6790'
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8235
+[debug] [35m[ADB][39m Forwarding system: 8235 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 forward tcp:8235 tcp:6790'
 [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell dumpsys package io.appium.uiautomator2.server'
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
@@ -147,7 +147,7 @@
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell pm grant com.android.settings android.globallauncher.permission.READ_SETTINGS ;'
 [debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
 [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
-[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["2e7c5f66-5e14-40d7-959f-15651ef3cbd3"]
+[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["9e851629-f4a0-40aa-b94f-7999bb322504"]
 [debug] [35m[UiAutomator2][39m Cleaning up 1 obsolete session
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell am force-stop io.appium.uiautomator2.server.test'
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
@@ -155,121 +155,111 @@
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","1f143258","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
-[35m[WD Proxy][39m socket hang up
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
-[35m[WD Proxy][39m socket hang up
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8294/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8235/wd/hub/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 7263ms
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 5136ms
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8294/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258","deviceUDID":"1f143258"}],"alwaysMatch":{}}}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258","deviceUDID":"1f143258"}],"alwaysMatch":{}},"sessionId":"46b5b11d-abc5-461...
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8235/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258","deviceUDID":"1f143258"}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258","deviceUDID":"1f143258"}],"alwaysMatch":{}},"sessionId":"cf7c1d4a-ab28-430...
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/appium/device/info] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"androidId":"b31aee456679e2a5","apiVersion":"31","bluetooth":{"state":"OFF"},"brand":"POCO","carrierName":"3SinyalKuatHemat","displayDensity":440,"locale":"en_GB","manufacturer":"Xiaomi","model":"M2007J20CG","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_SUPL,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"indosatgprs","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"}],"platformVersion":"12","realDisplaySize":"1080x2400","timeZone":"Asia/Jakarta"}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"androidId":"b31aee456679e2a5","apiVersion":"31","bluetooth":{"state":"OFF"},"brand":"POCO","carrierName":"3SinyalKuatHemat","displayDensity":440,"locale":"en_GB","manufacturer":"Xiaomi","model":"M2007J20CG","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":11531,"linkUpstreamBandwidthKbps":8518,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-72,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"12","realDisplaySize":"1080x2400","timeZone":"Asia/Jakarta"}}
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell dumpsys window'
-[debug] [35m[AndroidDriver][39m Screen is locked, trying to unlock
-[35m[AndroidDriver][39m Using app unlock, this is going to be deprecated!
-[35m[AndroidDriver][39m Unlocking screen
-[35m[AndroidDriver][39m Launching .Unlock
-[debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell am start -n io.appium.settings/.Unlock -c android.intent.category.LAUNCHER -a android.intent.action.MAIN -f 0x10200000'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/appium/device/pixel_ratio] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":2.75}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":2.75}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/appium/device/system_bars] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"statusBar":91}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"statusBar":91}}
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"height":2265,"width":1080}}
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 19203b23-2d33-49a8-a684-3f594588978f added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1694767980076 (15:53:00 GMT+0700 (Indochina Time))
-[debug] [35m[W3C (19203b23)][39m Cached the protocol value 'W3C' for the new session 19203b23-2d33-49a8-a684-3f594588978f
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m27317 ms - 1191[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"height":2265,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session d2cafb68-7f6f-4e13-a5df-5714df29255a added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1695119333930 (17:28:53 GMT+0700 (Indochina Time))
+[debug] [35m[W3C (d2cafb68)][39m Cached the protocol value 'W3C' for the new session d2cafb68-7f6f-4e13-a5df-5714df29255a
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13008 ms - 1191[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getSession() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getSession() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"lastScrollData":null}}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":"Xiaomi","pixelR...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f [39m[32m200[39m [90m52 ms - 1145[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"lastScrollData":null}}
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":"Xiaomi","pixelR...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a [39m[32m200[39m [90m12 ms - 1145[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getSession() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getSession() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"lastScrollData":null}}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":61977,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8294,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":"Xiaomi","pixelR...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f [39m[32m200[39m [90m57 ms - 1145[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"lastScrollData":null}}
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"1f143258","platform":"ANDROID","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2007J20CG (Android 12)","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258"},"platformName":"android","deviceId":"1f143258","chromedriverPort":62489,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"1f143258","newCommandTimeout":1800,"platformVersion":"12","systemPort":8235,"udid":"1f143258","deviceUDID":"1f143258","deviceApiLevel":31,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2007J20CG","deviceManufacturer":"Xiaomi","pixelR...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a [39m[32m200[39m [90m10 ms - 1145[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
 [debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.timeouts() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/timeouts [39m[32m200[39m [90m13 ms - 14[39m
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/timeouts [39m[32m200[39m [90m4 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getScreenshot() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getScreenshot() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7H15mBXFuf57hm0GlAERUWSIBPGiDErcQY2iASZqMIbAqDHGZUg0aiIQ\nY1wSAYlbwvCLiSZXgRg1V0Bj4s5ojCtLNOJyAc1mXABFFHBQWYaZ+f0xt4/VdWrvqu7qPv0+zzxn\nTp/uWr766qtvq+pCoVBohyMUCoXiZ3t7RzVtbW3S+8sBAT1IVFRUoL29vfiZRBtclk2Ob1JjTbdL\n1k6dsujno/YxDh5QaUNa5yVNPx3+E/GJDj2ySj/Wd9GzpvRzDdH896mdNHyQDboI9ICo8jVriMJn\nNucZqafR5fFkZ7mMUY54IOJf0/VG5XlZeeTzNtaFNM4b0XgE/UljvwLYHNeo/Kd7v0u6+7I+maDC\nZeGszvmsNCYJUvlLs5DwHbJFMyp/Zo2/s9YfG9CZnzn9SuGTfLM9/3Pwka//9mHL2cAy3mRKuk/z\nOEf2EGWdjSLXbRinuuWnAbx2p7U/NGz2Iyt6hU17KAk+cergqKgIF58b72wkxfzlVi8g9/RHNV5d\nCskceuDRL3diqcFVP32iX5T5n8MtfOITn2EjssxyPvEitGnIcMqRftD2gwi5XucervQpX6DDbzJk\nRa8Q7bhQQdKZu04dHDRx8ggOG0kxf1TmTVu9ANvpJvouAm+bkS0kSacsgDevbArtLMNVP32iX1Yi\nLVlELv/UYCM9XLQ9Jfidvs+neZwje9CZ/64zOHK9Lr3tVkVra6u1smR2RloQle/zDI4cTOUhDlrZ\nFNppqBcoFWK2Pf02F4Ek6RQgzfOVt6hEpWuUyFKa4GpR9oGvA2Ql0pIG6K5pPvGJr7AVIWM5LWSR\n7LQq7TnSAZ8yOLKm15mA1+6s...
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7H15mBXFuf57hm0GlAERUWSIBPGiDErcQY2iASZqMIbAqDHGZUg0aiIQ\nY1wSAYlbwvCLiSZXgRg1V0Bj4s5ojCtLNOJyAc1mXABFFHBQWYaZ+f0xt4/VdWrvqu7qPv0+zzxn\nTp/uWr766qtvq+pCoVBohyMUCoXiZ3t7RzVtbW3S+8sBAT1IVFRUoL29vfiZRBtclk2Ob1JjTbdL\n1k6dsujno/YxDh5QaUNa5yVNPx3+E/GJDj2ySj/Wd9GzpvRzDdH896mdNHyQDboI9ICo8jVriMJn\nNucZqafR5fFkZ7mMUY54IOJf0/VG5XlZeeTzNtaFNM4b0XgE/UljvwLYHNeo/Kd7v0u6+7I+maDC\nZeGszvmsNCYJUvlLs5DwHbJFMyp/Zo2/s9YfG9CZnzn9SuGTfLM9/3Pwka//9mHL2cAy3mRKuk/z\nOEf2EGWdjSLXbRinuuWnAbx2p7U/NGz2Iyt6hU17KAk+cergqKgIF58b72wkxfzlVi8g9/RHNV5d\nCskceuDRL3diqcFVP32iX5T5n8MtfOITn2EjssxyPvEitGnIcMqRftD2gwi5XucervQpX6DDbzJk\nRa8Q7bhQQdKZu04dHDRx8ggOG0kxf1TmTVu9ANvpJvouAm+bkS0kSacsgDevbArtLMNVP32iX1Yi\nLVlELv/UYCM9XLQ9Jfidvs+neZwje9CZ/64zOHK9Lr3tVkVra6u1smR2RloQle/zDI4cTOUhDlrZ\nFNppqBcoFWK2Pf02F4Ek6RQgzfOVt6hEpWuUyFKa4GpR9oGvA2Ql0pIG6K5pPvGJr7AVIWM5LWSR\n7LQq7TnSAZ8yOLKm15mA1+6srJmdOnWyVhYruJ9G5BkcAuQZHGpgpX/GQatyzOCghZjPezWz7jF3\nDVcZHO...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot [39m[32m200[39m [90m1929 ms - 2638124[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17XJR1/v//JwdRYMSzjOcDqHkET4RBWXmiLMsks9oV/GzZlmyr7nfD\nW2ap2SbVJ/uUWqttgbUdTDvs1qamlgtmqSlkdjDEPDaZKOKAihx+f/BjYpjhOAPDhY/77eZtd95z\nXdf7dWniXM95H7wklQi11qlTJ3Xr1k2dOnWS2WxWx44d1a5dO7Vp00atWrVSy5Yt5e/vrxYtWsjX\n11deXl6eLhkAAAAA4CFFRUUqKCjQhQsXZLVade7cOeXk5Cg7O1unTp3SL7/8IovFomPHjunYsWPK\ny8vzdMmG4+vpAhq7nj17qn///urXr5/69u2r0NBQ9erVS7169ZKPj4+nywMAAAAANDG//vqrfvrp\nJx08eFA//vijDhw4oO+//17fffcdwUcVvMQIDptmzZpp2LBhGjZsmMLDwzVkyBANGTJEAQEBni4N\nAAAAAHCZy8rK0r59+5Senq69e/dqz549Onr0qKfLajQu+4CjX79+GjVqlCIjIxUREaGhQ4d6uiQA\nAAAAAKplsVi0a9cuffnll/riiy+0Y8cO5efne7osj7ksA45hw4Zp9OjRuuaaa3T11VerXbt2ni4J\nAAAAAACXfPXVV0pNTdW2bdv02WefKScnx9MlNajLJuDo16+fxo4dqzFjxuj6669Xq1atPF0SAAAA\nAAD1Yu/evdqyZYu2bNmizZs3q7Cw0NMl1bsmHXD4+fnphhtusP3q3r27p0sCAAAAAKBBbd68WRs2\nbNDHH3+sb7/91tPl1JsmGXD06tVLN910k2666SaNHz/e0+UAAAAAAOBxWVlZ+uijj/Thhx9q06ZN\nni7H7ZpUwBEWFqbJkyfr1ltv...
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17XJR1/v//JwdRYMSzjOcDqHkET4RBWXmiLMsks9oV/GzZlmyr7nfD\nW2ap2SbVJ/uUWqttgbUdTDvs1qamlgtmqSlkdjDEPDaZKOKAihx+f/BjYpjhOAPDhY/77eZtd95z\nXdf7dWniXM95H7wklQi11qlTJ3Xr1k2dOnWS2WxWx44d1a5dO7Vp00atWrVSy5Yt5e/vrxYtWsjX\n11deXl6eLhkAAAAA4CFFRUUqKCjQhQsXZLVade7cOeXk5Cg7O1unTp3SL7/8IovFomPHjunYsWPK\ny8vzdMmG4+vpAhq7nj17qn///urXr5/69u2r0NBQ9erVS7169ZKPj4+nywMAAAAANDG//vqrfvrp\nJx08eFA//vijDhw4oO+//17fffcdwUcVvMQIDptmzZpp2LBhGjZsmMLDwzVkyBANGTJEAQEBni4N\nAAAAAHCZy8rK0r59+5Senq69e/dqz549Onr0qKfLajQu+4CjX79+GjVqlCIjIxUREaGhQ4d6uiQA\nAAAAAKplsVi0a9cuffnll/riiy+0Y8cO5efne7osj7ksA45hw4Zp9OjRuuaaa3T11VerXbt2ni4J\nAAAAAACXfPXVV0pNTdW2bdv02WefKScnx9MlNajLJuDo16+fxo4dqzFjxuj6669Xq1atPF0SAAAA\nAAD1Yu/evdqyZYu2bNmizZs3q7Cw0NMl1bsmHXD4+fnphhtusP3q3r27p0sCAAAAAKBBbd68WRs2\nbNDHH3+sb7/91tPl1JsmGXD06tVLN910k2666SaNHz/e0+UAAAAAAOBxWVlZ+uijj/Thhx9q06ZN\nni7H7ZpUwBEWFqbJkyfr1ltvVVhYmKfLAQAAAACg0Tl//rw++OADvffee1q/fr2Kioo8XZJbNImA\nY/jw4Y...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/screenshot [39m[32m200[39m [90m359 ms - 204846[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getWindowRect() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getWindowRect() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":{"height":2265,"width":1080}}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2265,"x":0,"y":0}
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/window/rect [39m[32m200[39m [90m58 ms - 50[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":{"height":2265,"width":1080}}
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2265,"x":0,"y":0}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/window/rect [39m[32m200[39m [90m20 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getSystemBars() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getSystemBars() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell dumpsys window windows'
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getSystemBars() result: {"statusBar":{"visible":true,"x":0,"y":0,"width":null,"height":1},"navigationBar":{"visible":true,"x":0,"y":0,"width":null,"height":1}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/appium/device/system_bars [39m[32m200[39m [90m265 ms - 145[39m
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getSystemBars() result: {"statusBar":{"visible":true,"x":0,"y":0,"width":null,"height":1},"navigationBar":{"visible":true,"x":0,"y":0,"width":null,"height":1}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/appium/device/system_bars [39m[32m200[39m [90m72 ms - 145[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.koperasibri.id"}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.activateApp() with args: ["com.koperasibri.id",null,null,null,"19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.activateApp() with args: ["com.koperasibri.id",null,null,null,"d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[AndroidDriver][39m Activating 'com.koperasibri.id' with 'adb shell monkey -p com.koperasibri.id -c android.intent.category.LAUNCHER 1' command
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell monkey -p com.koperasibri.id -c android.intent.category.LAUNCHER 1'
 [debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
@@ -278,103 +268,58 @@
 [debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
 [debug] [35m[AndroidDriver][39m   bash arg: 1
 [debug] [35m[AndroidDriver][39m Events injected: 1
-[debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=74ms (0ms mobile, 0ms wifi, 74ms not connected)
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.activateApp() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/appium/device/activate_app [39m[32m200[39m [90m4592 ms - 14[39m
+[debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=34ms (0ms mobile, 0ms wifi, 34ms not connected)
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/appium/device/activate_app [39m[32m200[39m [90m3335 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (19203b23)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2265\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.koperas...
-[35m[WD Proxy][39m Replacing sessionId 46b5b11d-abc5-461f-98bc-021fbad08425 with 19203b23-2d33-49a8-a684-3f594588978f
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source [39m[32m200[39m [90m1722 ms - 10819[39m
+[35m[W3C (d2cafb68)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/source] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2265\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.koperas...
+[35m[WD Proxy][39m Replacing sessionId cf7c1d4a-ab28-430e-adc5-748260be85c9 with d2cafb68-7f6f-4e13-a5df-5714df29255a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/source [39m[32m200[39m [90m645 ms - 28061[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getScreenshot() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.getScreenshot() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1pcCTnfSb4J8+6UKgqVOEo3Gd3A02yxaMlm6TMldQ6bIuzPkSHYryW\nx+ENR+x4w3bEftj56I3YjfBs7IedmNjD3vHM+NCEY6mYtU1ZtiXSGoqHKLGbZHcTaKDRB47CWQWg\nqoC68twP1ZWNwtEoAFVAJ/r5RbTYyMrKN5EUgcon/+//FVr+4Hs2iIiIiIiIiIhcTDztEyAiIiIi\nIiIiOi4GHERERERERETkegw4iIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERE\nRESux4CDiIiIiIiIiFyPAQcRERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiI\nyPUYcBARERERERGR6zHgICIiIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5\nHgMOIiIiIiIiInI9BhxERERERERE5HoMOIiIiIiIiIjI9RhwEBEREREREZHrMeAgIiIiIiIiItdj\nwEFERERERERErseAg4iIiIiIiIhcjwEHEREREREREbkeAw4iIiIiIiIicj0GHERERERERETkegw4\niIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERERESux4CDiIiIiIiIiFyPAQcR\nERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiIyPUYcBARERERERGR6zHgICIi\nIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5nnzaJ0B0kqzcBoylCZir92Dl\n12GllwAAYjgO0d8CqW0QcnwM...
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1pcCTnfSb4J8+6UKgqVOEo3Gd3A02yxaMlm6TMldQ6bIuzPkSHYryW\nx+ENR+x4w3bEftj56I3YjfBs7IedmNjD3vHM+NCEY6mYtU1ZtiXSGoqHKLGbZHcTaKDRB47CWQWg\nqoC68twP1ZWNwtEoAFVAJ/r5RbTYyMrKN5EUgcon/+//FVr+4Hs2iIiIiIiIiIhcTDztEyAiIiIi\nIiIiOi4GHERERERERETkegw4iIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERE\nRESux4CDiIiIiIiIiFyPAQcRERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiI\nyPUYcBARERERERGR6zHgICIiIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5\nHgMOIiIiIiIiInI9BhxERERERERE5HoMOIiIiIiIiIjI9RhwEBEREREREZHrMeAgIiIiIiIiItdj\nwEFERERERERErseAg4iIiIiIiIhcjwEHEREREREREbkeAw4iIiIiIiIicj0GHERERERERETkegw4\niIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERERESux4CDiIiIiIiIiFyPAQcR\nERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiIyPUYcBARERERERGR6zHgICIi\nIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5nnzaJ0B0kqzcBoylCZir92Dl\n12GllwAAYjgO0d8CqW0QcnwMYiCy5/tLE2/CTN6D3HUR6vBLJ3nqRERERHSaLAPW1jogyRADLXvv\nY1swM8...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot [39m[32m200[39m [90m492 ms - 99738[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1tjCN3fh/4bz2y+NQkm2Szm/38NA89Ws3qYbS7kuLdeLWX2GfFdmxt\nfOfsHgIEe8AZ8PndBbg3PuACJPfuLsAdsg4QnDcxDpbjTazNOsnO2tGutKu1ZiTNSN0zPa2Z6Qc2\n+4Fk86n5WMWqe8FhdbOfn3uq5/sBGhpWs1hVM5oe1pe//+8ndP7BDy0QERERERERETmYeN4nQERE\nRERERER0XAw4iIiIiIiIiMjxGHAQERERERERkeMx4CAiIiIiIiIix2PAQURERERERESOx4CDiIiI\niIiIiByPAQcREREREREROR4DDiIiIiIiIiJyPAYcREREREREROR4DDiIiIiIiIiIyPEYcBARERER\nERGR4zHgICIiIiIiIiLHY8BBRERERERERI7HgIOIiIiIiIiIHI8BBxERERERERE5HgMOIiIiIiIi\nInI8BhxERERERERE5HgMOIiIiIiIiIjI8RhwEBEREREREZHjMeAgIiIiIiIiIsdjwEFERERERERE\njseAg4iIiIiIiIgcjwEHERERERERETkeAw4iIiIiIiIicjwGHERERERERETkeAw4iIiIiIiIiMjx\nGHAQERERERERkeMx4CAiIiIiIiIix2PAQURERERERESOx4CDiIiIiIiIiByPAQcREREREREROR4D\nDiIiIiIiIiJyPAYcREREREREROR4DDiIiIiIiIiIyPEYcBARERERERGR4zHgICIiIiIiIiLHY8BB\nRERERERERI7HgIOIiIiIiIiIHI8BBxERERERERE5HgMOIiIiIiIiInI8+bxPgOgsmaUsjKUpNFYf\nwSyvwcwtAQDEYA9ETyekrhHI...
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1tjCN3fh/4bz2y+NQkm2Szm/38NA89Ws3qYbS7kuLdeLWX2GfFdmxt\nfOfsHgIEe8AZ8PndBbg3PuACJPfuLsAdsg4QnDcxDpbjTazNOsnO2tGutKu1ZiTNSN0zPa2Z6Qc2\n+4Fk86n5WMWqe8FhdbOfn3uq5/sBGhpWs1hVM5oe1pe//+8ndP7BDy0QERERERERETmYeN4nQERE\nRERERER0XAw4iIiIiIiIiMjxGHAQERERERERkeMx4CAiIiIiIiIix2PAQURERERERESOx4CDiIiI\niIiIiByPAQcREREREREROR4DDiIiIiIiIiJyPAYcREREREREROR4DDiIiIiIiIiIyPEYcBARERER\nERGR4zHgICIiIiIiIiLHY8BBRERERERERI7HgIOIiIiIiIiIHI8BBxERERERERE5HgMOIiIiIiIi\nInI8BhxERERERERE5HgMOIiIiIiIiIjI8RhwEBEREREREZHjMeAgIiIiIiIiIsdjwEFERERERERE\njseAg4iIiIiIiIgcjwEHERERERERETkeAw4iIiIiIiIicjwGHERERERERETkeAw4iIiIiIiIiMjx\nGHAQERERERERkeMx4CAiIiIiIiIix2PAQURERERERESOx4CDiIiIiIiIiByPAQcREREREREROR4D\nDiIiIiIiIiJyPAYcREREREREROR4DDiIiIiIiIiIyPEYcBARERERERGR4zHgICIiIiIiIiLHY8BB\nRERERERERI7HgIOIiIiIiIiIHI8BBxERERERERE5HgMOIiIiIiIiInI8+bxPgOgsmaUsjKUpNFYf\nwSyvwcwtAQDEYA9ETyekrhHIPRMQvaEd969N3UQj9Qhy7zWoY6+d5akTERERERHRHoTOP/ihdd4n\nQXTazF...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/screenshot [39m[32m200[39m [90m515 ms - 259076[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.koperasibri.id:id/txtNoHP' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.EditText' and @resource-id = 'com.koperasibri.id:id/txtNoHP' and (@text = '' or . = '')]","19203b23-2d33-49a8-a684-3f594588978f"]
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'LND12309000045' or . = 'LND12309000045') and @resource-id = 'com.koperasibri.id:id/txtLoanCode']"}[39m
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'LND12309000045' or . = 'LND12309000045') and @resource-id = 'com.koperasibri.id:id/txtLoanCode']","d2cafb68-7f6f-4e13-a5df-5714df29255a"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.koperasibri.id:id/txtNoHP' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":[{"ELEMENT":"00000000-0000-01d6-ffff-ffff00000249","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d6-ffff-ffff00000249"}]}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d6-ffff-ffff00000249","ELEMENT":"00000000-0000-01d6-ffff-ffff00000249"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements [39m[32m200[39m [90m323 ms - 139[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = 'LND12309000045' or . = 'LND12309000045') and @resource-id = 'com.koperasibri.id:id/txtLoanCode']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":[{"ELEMENT":"00000000-0000-0490-ffff-ffff00001791","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0490-ffff-ffff00001791"}]}
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0490-ffff-ffff00001791","ELEMENT":"00000000-0000-0490-ffff-ffff00001791"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a/elements [39m[32m200[39m [90m415 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (19203b23)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2265\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.koperasibri.id\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2265]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.koperas...
-[35m[WD Proxy][39m Replacing sessionId 46b5b11d-abc5-461f-98bc-021fbad08425 with 19203b23-2d33-49a8-a684-3f594588978f
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/source [39m[32m200[39m [90m197 ms - 21028[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.getScreenshot() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
-[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1pcCTnfSb4J8+6UKgqVOEo3Gd3A02yxaMlm6TMldQ6bIuzPkSHYryW\nx+ENR+x4w3bEftj56I3YjfBs7IedmNjD3vHM+NCEY6mYtU1ZtiXSGoqHKLGbZHcTaKDRB47CWQWg\nqoC68twP1ZWNwtEoAFVAJ/r5RbTYyMrKN5EUgcon/+//FVr+4Hs2iIiIiIiIiIhcTDztEyAiIiIi\nIiIiOi4GHERERERERETkegw4iIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERE\nRESux4CDiIiIiIiIiFyPAQcRERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiI\nyPUYcBARERERERGR6zHgICIiIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5\nHgMOIiIiIiIiInI9BhxERERERERE5HoMOIiIiIiIiIjI9RhwEBEREREREZHrMeAgIiIiIiIiItdj\nwEFERERERERErseAg4iIiIiIiIhcjwEHEREREREREbkeAw4iIiIiIiIicj0GHERERERERETkegw4\niIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERERESux4CDiIiIiIiIiFyPAQcR\nERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiIyPUYcBARERERERGR6zHgICIi\nIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5nnzaJ0B0kqzcBoylCZir92Dl\n12GllwAAYjgO0d8CqW0QcnwM...
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1pcCTnfSb4J8+6UKgqVOEo3Gd3A02yxaMlm6TMldQ6bIuzPkSHYryW\nx+ENR+x4w3bEftj56I3YjfBs7IedmNjD3vHM+NCEY6mYtU1ZtiXSGoqHKLGbZHcTaKDRB47CWQWg\nqoC68twP1ZWNwtEoAFVAJ/r5RbTYyMrKN5EUgcon/+//FVr+4Hs2iIiIiIiIiIhcTDztEyAiIiIi\nIiIiOi4GHERERERERETkegw4iIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERE\nRESux4CDiIiIiIiIiFyPAQcRERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiI\nyPUYcBARERERERGR6zHgICIiIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5\nHgMOIiIiIiIiInI9BhxERERERERE5HoMOIiIiIiIiIjI9RhwEBEREREREZHrMeAgIiIiIiIiItdj\nwEFERERERERErseAg4iIiIiIiIhcjwEHEREREREREbkeAw4iIiIiIiIicj0GHERERERERETkegw4\niIiIiIiIiMj1GHAQERERERERkesx4CAiIiIiIiIi12PAQURERERERESux4CDiIiIiIiIiFyPAQcR\nERERERERuR4DDiIiIiIiIiJyPQYcREREREREROR6DDiIiIiIiIiIyPUYcBARERERERGR6zHgICIi\nIiIiIiLXY8BBRERERERERK7HgIOIiIiIiIiIXI8BBxERERERERG5nnzaJ0B0kqzcBoylCZir92Dl\n12GllwAAYjgO0d8CqW0QcnwMYiCy5/tLE2/CTN6D3HUR6vBLJ3nqRERERHSaLAPW1jogyRADLXvv\nY1swM8...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/screenshot [39m[32m200[39m [90m525 ms - 171162[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnOperatorPulsa' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnOperatorPulsa' and (@text = '' or . = '')]","19203b23-2d33-49a8-a684-3f594588978f"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnOperatorPulsa' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":[{"ELEMENT":"00000000-0000-01d0-ffff-ffff0000021c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d0-ffff-ffff0000021c"}]}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d0-ffff-ffff0000021c","ELEMENT":"00000000-0000-01d0-ffff-ffff0000021c"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements [39m[32m200[39m [90m268 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnJumlahPulsa' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnJumlahPulsa' and (@text = '' or . = '')]","19203b23-2d33-49a8-a684-3f594588978f"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.koperasibri.id:id/spnJumlahPulsa' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":[{"ELEMENT":"00000000-0000-01d0-ffff-ffff0000021f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d0-ffff-ffff0000021f"}]}
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01d0-ffff-ffff0000021f","ELEMENT":"00000000-0000-01d0-ffff-ffff0000021f"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f/elements [39m[32m200[39m [90m219 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (19203b23)][39m Calling AppiumDriver.deleteSession() with args: ["19203b23-2d33-49a8-a684-3f594588978f"]
-[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1694768080176 (15:54:40 GMT+0700 (Indochina Time))
-[35m[Appium][39m Removing session 19203b23-2d33-49a8-a684-3f594588978f from our master session list
+[debug] [35m[W3C (d2cafb68)][39m Calling AppiumDriver.deleteSession() with args: ["d2cafb68-7f6f-4e13-a5df-5714df29255a"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1695119408178 (17:30:08 GMT+0700 (Indochina Time))
+[35m[Appium][39m Removing session d2cafb68-7f6f-4e13-a5df-5714df29255a from our master session list
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
-[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8294/wd/hub/session/46b5b11d-abc5-461f-98bc-021fbad08425] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"46b5b11d-abc5-461f-98bc-021fbad08425","value":null}
+[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8235/wd/hub/session/cf7c1d4a-ab28-430e-adc5-748260be85c9] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"cf7c1d4a-ab28-430e-adc5-748260be85c9","value":null}
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell am force-stop com.android.settings'
 [debug] [35m[Logcat][39m Stopping logcat capture
-[debug] [35m[ADB][39m Removing forwarded port socket connection: 8294 
-[debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 forward --remove tcp:8294'
-[debug] [35m[Instrumentation][39m .
-[debug] [35m[Instrumentation][39m 
-[debug] [35m[Instrumentation][39m Time: 107.143
-[debug] [35m[Instrumentation][39m 
-[debug] [35m[Instrumentation][39m OK (1 test)
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8235 
+[debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 forward --remove tcp:8235'
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
 [debug] [35m[ADB][39m Running 'C:\Users\62851\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1f143258 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1694768081082 (15:54:41 GMT+0700 (Indochina Time))
-[debug] [35m[W3C (19203b23)][39m Received response: null
-[debug] [35m[W3C (19203b23)][39m But deleting session, so not returning
-[debug] [35m[W3C (19203b23)][39m Responding to client with driver.deleteSession() result: null
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/19203b23-2d33-49a8-a684-3f594588978f [39m[32m200[39m [90m912 ms - 14[39m
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1695119408731 (17:30:08 GMT+0700 (Indochina Time))
+[debug] [35m[W3C (d2cafb68)][39m Received response: null
+[debug] [35m[W3C (d2cafb68)][39m But deleting session, so not returning
+[debug] [35m[W3C (d2cafb68)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/d2cafb68-7f6f-4e13-a5df-5714df29255a [39m[32m200[39m [90m557 ms - 14[39m
 [35m[HTTP][39m [90m[39m

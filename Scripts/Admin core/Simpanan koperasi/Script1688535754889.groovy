@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Daftar sim
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Daftar simpanan koperasi/Page_- Invelli Microfinance System/a_Daftar Simpanan'))
 
-WebUI.navigateToUrl('https://hasanah.invelli.com/account/')
+WebUI.navigateToUrl('https://mobilecore-uat.invelli.com/account/')
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Daftar simpanan koperasi/Page_- Invelli Microfinance System/span_Data Baru'))
 
