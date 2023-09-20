@@ -21,7 +21,7 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
-WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Paylater/android.widget.TextView - Paket Data'), 0)
 
 Mobile.tap(findTestObject('Transaksi PPOB/android.widget.PilihRekening', [('packageName') : GlobalVariable.AppID]), 0)
 
@@ -33,7 +33,8 @@ Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.w
 
 Mobile.tap(findTestObject('Transaksi PPOB/Paket data/NomorTujuan', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Transaksi PPOB/Paket data/NomorTujuan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.No_Hp, 0)
+Mobile.setText(findTestObject('Transaksi PPOB/Paket data/NomorTujuan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.No_Hp, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Paket data/android.widget.Button - LANJUT', [('packageName') : GlobalVariable.AppID]), 
     0)

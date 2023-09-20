@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'LND12309000045'</initValue>
+      <initValue>'LND12309000067'</initValue>
       <name>IdTransaction</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

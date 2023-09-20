@@ -23,6 +23,8 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 
 WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Paylater/android.widget.TextView - Beli Pulsa'), 0)
+
 Mobile.tap(findTestObject('Transaksi PPOB/android.widget.PilihRekening', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.tap(findTestObject('Transaksi PPOB/Pulsa/android.widget.TextView - Paylater', [('packageName') : GlobalVariable.AppID]), 

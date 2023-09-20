@@ -23,13 +23,14 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 
 WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Paylater/Bayar Paylater/MenuPinjaman', [('packageName') : GlobalVariable.AppID]), 0)
+Mobile.tap(findTestObject('Paylater/Bayar Paylater/android.widget.TextView - Pinjaman'), 0)
 
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/BayarPaylater', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.scrollToText(GlobalVariable.IdTransaction)
 
-Mobile.tap(findTestObject('Paylater/Bayar Paylater/selectLDN', [('packageName') : GlobalVariable.AppID, ('textName') : GlobalVariable.IdTransaction]), 0)
+Mobile.tap(findTestObject('Paylater/Bayar Paylater/selectLDN', [('packageName') : GlobalVariable.AppID, ('textName') : GlobalVariable.IdTransaction]), 
+    0)
 
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/android.widget.TextView - Bayar', [('packageName') : GlobalVariable.AppID]), 
     0)
