@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'cdlz'</initValue>
+      <initValue>'kcns'</initValue>
       <name>G_Code_Company</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi dua empat'</initValue>
+      <initValue>'Registrasi dua lima'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0800000024'</initValue>
+      <initValue>'081000000025'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi24@gmail.com'</initValue>
+      <initValue>'registrasi25@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'234234234224'</initValue>
+      <initValue>'234234234225'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454124'</initValue>
+      <initValue>'123454125'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -151,7 +151,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.koperasibri.id'</initValue>
+      <initValue>'com.cardlez.id'</initValue>
       <name>AppID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

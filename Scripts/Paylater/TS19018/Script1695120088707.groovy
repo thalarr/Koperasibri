@@ -25,9 +25,15 @@ WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE
 
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/android.widget.TextView - Pinjaman'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/BayarPaylater', [('packageName') : GlobalVariable.AppID]), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/BayarAll', [('packageName') : GlobalVariable.AppID]), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Paylater/Bayar Paylater/android.widget.Button - YA', [('packageName') : GlobalVariable.AppID]), 
     0)

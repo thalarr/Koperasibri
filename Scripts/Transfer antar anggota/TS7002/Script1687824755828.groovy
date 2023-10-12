@@ -21,39 +21,49 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Transfer antar anggota/menuTransfer2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - Antar Rekening Cardlez'), 
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - Antar Rekening Cardlez', [
+            ('packageName') : GlobalVariable.AppID]), 0)
+
+Mobile.tap(findTestObject('Transfer antar anggota/android.widget.EditText (6)', [('packageName') : GlobalVariable.AppID]), 
     0)
 
-Mobile.tap(findTestObject('Transfer antar anggota/android.widget.EditText (6)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (1)'), '085156031316', 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (2)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (3)'), '50000', 0)
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), 
+    '081390111111', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (5)'), 'keterangan', 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), 
+    '10000', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - LANJUT'), 0)
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), 
+    'keterangan', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT (1)', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - LANJUT', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

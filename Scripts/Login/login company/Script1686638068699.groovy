@@ -17,9 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText'), 0)
+WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), GlobalVariable.G_Code_Company, 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk'), 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.G_Code_Company, 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk', [('packageName') : GlobalVariable.AppID]), 
+    0)
+
+WebUI.callTestCase(findTestCase('Registrasi via hp/positive - cardlez'), [:], FailureHandling.STOP_ON_FAILURE)
 

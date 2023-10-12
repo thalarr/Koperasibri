@@ -141,12 +141,6 @@ Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK', [('p
 Mobile.setText(findTestObject('Registrasi via hp (kita.id)/android.widget.NIK', [('packageName') : GlobalVariable.AppID]), 
     GlobalVariable.G_Nomor_Induk, 0)
 
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.SpinnerRegion', [('packageName') : GlobalVariable.AppID]), 
-    0)
-
-Mobile.tap(findTestObject('Registrasi via hp (kita.id)/android.widget.CheckedTextView - Kal 1', [('packageName') : GlobalVariable.AppID]), 
-    0)
-
 'Hide keyboard'
 Mobile.hideKeyboard()
 
