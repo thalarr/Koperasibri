@@ -17,18 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (2)', [('packageName') : GlobalVariable.AppID]), 
-    0)
+'Get Width Height and Store in device_Width variable'
+device_Width = Mobile.getDeviceWidth()
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (3)', [('packageName') : GlobalVariable.AppID]), 
-    GlobalVariable.G_No_Hp, 0)
+'Get Width Height and Store in device_Width variable'
+device_Height = Mobile.getDeviceHeight()
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)', [('packageName') : GlobalVariable.AppID]), 
-    0)
+'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
+int startX = device_Width / 2
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)', [('packageName') : GlobalVariable.AppID]), 
-    GlobalVariable.G_Password_Default, 0)
+'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
+int endX = startX
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)', [('packageName') : GlobalVariable.AppID]), 
-    0)
+'Storing the startY value'
+int startY = device_Height * 0.30
+
+'Storing the endY value'
+int endY = device_Height * 0.70
+
+'Swipe Vertical from top to bottom'
+Mobile.swipe(startX, endY, endX, startY)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/KYC1/android.widget.CheckBox -', [('packageName') : GlobalVariable.AppID]), 
+    4)) {
+    Mobile.checkElement(findTestObject('Object Repository/KYC1/android.widget.CheckBox -', [('packageName') : GlobalVariable.AppID]), 
+        5)
+}
+
+Mobile.tap(findTestObject('Object Repository/KYC1/Konfirm Data - Simpan', [('packageName') : GlobalVariable.AppID]), 0)
 

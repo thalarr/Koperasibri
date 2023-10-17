@@ -8,7 +8,7 @@
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>25</pageLoadTimeout>
    <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>91be4719-5f6d-48d2-ac64-6ef7abcdfb49</testSuiteGuid>
    <testCaseLink>
@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>e51c5a7f-b0c9-4fc4-b6fa-054257cde1dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login/login default</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -61,10 +61,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb0da46f-409c-45e9-a894-c92384de7c19</guid>
+      <guid>bce41e0f-6244-4bb0-a4c2-e0e0c43fd1c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Konfirmasi Data/positive</testCaseId>
+      <testCaseId>Test Cases/Konfirmasi Data/positive - cardlez</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

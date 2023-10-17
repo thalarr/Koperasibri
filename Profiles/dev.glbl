@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi dua lima'</initValue>
+      <initValue>'Registrasi dua tujuh'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'081000000025'</initValue>
+      <initValue>'081000000027'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,17 +31,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi25@gmail.com'</initValue>
+      <initValue>'registrasi27@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'234234234225'</initValue>
+      <initValue>'234234234227'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'241452354689'</initValue>
+      <initValue>'241452354927'</initValue>
       <name>G_NPWP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'asxq3528'</initValue>
+      <initValue>'icmr3095'</initValue>
       <name>G_Password_Default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454125'</initValue>
+      <initValue>'123454127'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
