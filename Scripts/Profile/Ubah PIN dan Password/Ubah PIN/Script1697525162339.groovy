@@ -17,21 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/MenuProfile', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/UbahPIN', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/PINLama', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/PINLama', [('packageName') : GlobalVariable.AppID]), GlobalVariable.PINLama, 0)
+Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/PINLama', [('packageName') : GlobalVariable.AppID]), GlobalVariable.PINLama, 
+    0)
 
 Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/PINBaru', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/PINBaru', [('packageName') : GlobalVariable.AppID]), GlobalVariable.PINBaru, 0)
+Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/PINBaru', [('packageName') : GlobalVariable.AppID]), GlobalVariable.PINBaru, 
+    0)
 
 Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/KonfirmasiPIN', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/KonfirmasiPIN', [('packageName') : GlobalVariable.AppID]), GlobalVariable.KonfirmasiPIN, 0)
+Mobile.setText(findTestObject('Profile/Ubah PIN dan Password/KonfirmasiPIN', [('packageName') : GlobalVariable.AppID]), 
+    GlobalVariable.KonfirmasiPIN, 0)
 
-Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/android.widget.TextView - SIMPAN', [('packageName') : GlobalVariable.AppID]), 0)
+Mobile.tap(findTestObject('Profile/Ubah PIN dan Password/android.widget.TextView - SIMPAN', [('packageName') : GlobalVariable.AppID]), 
+    0)
 
