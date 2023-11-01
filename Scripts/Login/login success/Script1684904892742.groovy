@@ -19,21 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cardlez.id')
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Login/KodePerusahaan', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), 'DEMO', 0)
+Mobile.setText(findTestObject('Login/KodePerusahaan', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Code_Company, 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk'), 0)
+Mobile.tap(findTestObject('Login/android.widget.TextView - Masuk (2)', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Login/noHP', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (3)'), '085774853904', 0)
+Mobile.setText(findTestObject('Login/noHP', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_No_Hp, 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)'), 0)
+Mobile.tap(findTestObject('Login/Password', [('packageName') : GlobalVariable.AppID]), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)'), '123123', 0)
+Mobile.setText(findTestObject('Login/Password', [('packageName') : GlobalVariable.AppID]), GlobalVariable.G_Password, 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)'), 0)
+Mobile.tap(findTestObject('Login/android.widget.TextView - Masuk3', [('packageName') : GlobalVariable.AppID]), 0)
 
 Mobile.closeApplication()
 
