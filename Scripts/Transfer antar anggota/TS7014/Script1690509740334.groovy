@@ -32,7 +32,7 @@ Mobile.tap(findTestObject('Transfer antar anggota/android.widget.EditText (6)'),
 
 Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (1)'), GlobalVariable.Nomor_Rekening, 
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (1)'), GlobalVariable.TF_Nomor_Rekening, 
     0)
 
 'Hide keyboard'

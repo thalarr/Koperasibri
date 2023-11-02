@@ -7,6 +7,26 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'3512306004'</initValue>
-      <name>Nomor_Rekening</name>
+      <name>TF_Nomor_Rekening</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>TF_Nominal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'088888888'</initValue>
+      <name>TF_Nomor_HP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.cardlez.id'</initValue>
+      <name>AppID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'keterangan'</initValue>
+      <name>TF_Keterangan</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
